@@ -36,6 +36,12 @@ function my_keydown(e)
 		otherkey();
 		document.getElementById("d1").innerHTML="You pressed symbol or other key";
 	}
+	if((keyPressed >48 && keyPressed<=57){
+			numberkey();
+			document.getElementById("d1").innerHTML="You pressed the number key!";
+			console.log("number key");
+		}
+
 }
 
 function alphabetkey()
@@ -45,14 +51,18 @@ function alphabetkey()
 }
 function numberkey()
 {
-	
+	img_image="numkey.png";
+	add();
 }
 function arrowkey()
 {
+	img_image="Arrkey.png";
+	add();
 }
 function specialkey()
 {
-	
+	img_image="Spkey.png";
+	add();
 }
 function otherkey()
 {
