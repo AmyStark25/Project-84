@@ -31,7 +31,7 @@ function my_keydown(e)
 			document.getElementById("d1").innerHTML="You pressed the alphabet key!";
 			console.log("alphabet key");
 		}
-	}
+	
 	if((keyPressed >=48 && keyPressed<=57){
 			numberkey();
 			document.getElementById("d1").innerHTML="You pressed the number key!";
@@ -47,7 +47,7 @@ if((keyPressed >48 && keyPressed<=57){
 			document.getElementById("d1").innerHTML="You pressed the number key!";
 			console.log("number key");
 		}
-		if((keyPressed = 18)|| (keyPressed = 17) || (keyPressed = 27) ({
+		if((keyPressed = 18)|| (keyPressed = 17) || (keyPressed = 27) {
 			specialkey();
 			document.getElementById("d1").innerHTML="You pressed the special key!";
 			console.log("special key");
@@ -59,7 +59,7 @@ if((keyPressed >48 && keyPressed<=57){
 			console.log("alphabet key");
 		}
 	}
-	if((keyPressed >=48 && keyPressed<=57){
+	if(keyPressed >=48 && keyPressed<=57){
 			numberkey();
 			document.getElementById("d1").innerHTML="You pressed the number key!";
 			console.log("number key");
@@ -74,15 +74,11 @@ if((keyPressed >48 && keyPressed<=57){
 			document.getElementById("d1").innerHTML="You pressed the number key!";
 			console.log("number key");
 		}
-		if((keyPressed = 18)|| (keyPressed = 17) || (keyPressed = 27) ({
+		if((keyPressed = 18)|| (keyPressed = 17) || (keyPressed = 27)){
 			specialkey();
 			document.getElementById("d1").innerHTML="You pressed the special key!";
 			console.log("special key");
 		}
-		else{
-		otherkey();
-		document.getElementById("d1").innerHTML="You pressed symbol or other key";
-	}
 }
 
 function alphabetkey()
